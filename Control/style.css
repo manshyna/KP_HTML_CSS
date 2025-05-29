@@ -1,7 +1,75 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+/*--------------------HEADER---------------------------*/
+.w-1250{
+    width:1250px;
+    margin: 0 auto;
+}
  li{
     list-style: none;}
  a {text-decoration: none;}
-.header-nav{ display: flex;
- justify-content: space-between;
- flex-direction: row;}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 20px;}
+
+.header-nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 300px;
+
+}
+header nav ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+header nav ul li a{ color: #2B2C34;}
+.buy-coffe{
+    border-radius: 4px;
+    background:  #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+    width: 213px;
+    height: 44px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2{
+    color: #001858;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.logo span{
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
