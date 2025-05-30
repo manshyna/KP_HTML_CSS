@@ -78,6 +78,9 @@ header nav ul li a{ color: #2B2C34;}
     height: 1400px;
     background: #EFF0F3;
 }
+.icon-search{
+    padding-right: 10px;
+}
 /*--------------------MAIN---------------------------*/
 main{
      display: flex;
@@ -88,11 +91,73 @@ main{
 .dasteen {
     width: 664px;
     height: 345px;
-    background-color: deepskyblue;
     margin-top: 271px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
 }
 main img{
     width: 434px;
     height: 363px;
     margin-top: 250px;
 }
+main h1{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+main p{color:#9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main-form{
+    width: 609px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
+input[type="email"] {
+    width: 444px;
+    height: 67px;
+    border: none;
+    background-color: White;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+}
+input[type="email"]::placeholder {
+    color:  #C0C0C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+}
+input[type="submit"]{
+    width: 145px;
+    height: 67px;
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;}
+/*------------------------------------section-browse-category---------------------------*/
