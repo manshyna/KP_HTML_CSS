@@ -7,7 +7,7 @@
 .w-1250{
     width:1250px;
     margin: 0 auto;
-}
+    }
  li{
     list-style: none;}
  a {text-decoration: none;}
@@ -72,4 +72,27 @@ header nav ul li a{ color: #2B2C34;}
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.header-main-section1{
+    width: 100%;
+    height: 1400px;
+    background: #EFF0F3;
+}
+/*--------------------MAIN---------------------------*/
+main{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.dasteen {
+    width: 664px;
+    height: 345px;
+    background-color: deepskyblue;
+    margin-top: 271px;
+}
+main img{
+    width: 434px;
+    height: 363px;
+    margin-top: 250px;
 }
