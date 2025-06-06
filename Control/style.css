@@ -48,11 +48,10 @@ header nav ul{
     text-transform: capitalize;
 }
 header nav ul li a{ color: #2B2C34;}
-
-.activlink{
-    border-radius: 4px;
-    background:  #6246EA;
+.buy-coffee-link {
     color: #FFFFFE;
+    border-radius: 4px;
+    background: #6246EA;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -63,8 +62,8 @@ header nav ul li a{ color: #2B2C34;}
     width: 213px;
     height: 44px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
