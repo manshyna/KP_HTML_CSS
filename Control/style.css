@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
+    li{
+        list-style: none;}
+    a {text-decoration: none;}
+
 
 /*--------------------HEADER---------------------------*/
 .w-1250{
     width:1250px;
     margin: 0 auto;
     }
- li{
-    list-style: none;}
- a {text-decoration: none;}
 
 header{
     height: 86px;
@@ -47,11 +48,12 @@ header nav ul{
     text-transform: capitalize;
 }
 header nav ul li a{ color: #2B2C34;}
-.buy-coffe{
+
+.activlink{
     border-radius: 4px;
     background:  #6246EA;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -61,10 +63,11 @@ header nav ul li a{ color: #2B2C34;}
     width: 213px;
     height: 44px;
     display: flex;
-    gap: 10px;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
+
 .logo h2{
     color: #001858;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -126,6 +129,12 @@ main p{color:#9A9494;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 12px;
+   }
+.line-p{
+    width: 667px;
+    height: 56px;
+    border-left: 3px solid #2B2C34;
 }
 .subscribe-form{
     width: 609px;
@@ -170,13 +179,16 @@ input[type="submit"]{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;}
-/*--------------------section-browse-category---------------------------*/
+/*-----------------------------------------section-browse-category---------------------------*/
 .section-browse-category{
     width: 100%;
     height: 500px;
     background: #EFF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.browse-category{
+.article-browse-category{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,13 +197,13 @@ input[type="submit"]{
 .section-browse-category h3{
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #2B2C34;
-     font-size: 24px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
 }
-.section-browse-category h4{
+.section-browse-category a{
     color:  #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
@@ -206,7 +218,7 @@ input[type="submit"]{
 .browse-category-cards{
     display: flex;
     gap: 37px;
- }
+   }
 .card {
     width: 220px;
     height: 280px;
@@ -236,16 +248,15 @@ input[type="submit"]{
     width: 60px;
     height: 60px;
 }
-
 /*--------------------section-featured-article+CSS+javascript+React JS---------------------------*/
-
-.article{
+.article {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
     margin-top: 80px;
-}
+    margin-bottom: 30px;}
+
+
  .article h3{
      font-family: "Plus Jakarta Sans", sans-serif;
      color: #2B2C34;
@@ -255,7 +266,7 @@ input[type="submit"]{
      line-height: normal;
      text-transform: capitalize;
     }
-.section-featured-article h4{
+.article a{
         color:  #2B2C34;
         font-family: "Plus Jakarta Sans", sans-serif;
         font-size: 20px;
@@ -264,6 +275,9 @@ input[type="submit"]{
         line-height: normal;
         text-transform: capitalize;
        }
+.article a svg{
+    margin-left: 12px;
+}
 .wrap-article{
     display: flex;
     flex-direction: row;
@@ -280,6 +294,14 @@ input[type="submit"]{
     border-radius: 12px;
     background: #FFFFFE;
    }
+.card-article h4{
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;}
 
 .img-article{
     width: 260px;
@@ -315,26 +337,6 @@ input[type="submit"]{
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
-/*--------------------section-CSS-article---------------------------*/
-.section-CSS-article h4{
-    color:  #2B2C34;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-}
-/*--------------------section-javascript-article---------------------------*/
-.section-javascript-article h4{
-    color:  #2B2C34;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-}
 
 /*--------------------section-react-article---------------------------*/
 .section-react-article h4{
@@ -351,26 +353,28 @@ input[type="submit"]{
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
-.more-artical{
+.more-artical-batton{
     width: 165px;
     height: 64px;
     border: none;
     border-radius: 8px;
     background:  #6246EA;
-    color: #FFFFFE;
+      }
+.more-artical-batton a{
+   color: #FFFFFE;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-   }
-.button-article{
+}
+.button-wrap{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
 /*--------------------section-subscribe---------------------------*/
 .section-subscribe {
     width: 100%;
@@ -438,7 +442,6 @@ footer{
     display: flex;
     flex-direction: row;
     gap: 95px;
-    ;
     }
 .footer-content{
     margin-top: 70px;
@@ -483,7 +486,7 @@ footer nav ul li a{ color: #2B2C34;}
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    margin-top: 70px;
+
 }
 .logo-social-media h2{
     margin-bottom: 20px;
@@ -495,6 +498,7 @@ footer nav ul li a{ color: #2B2C34;}
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 .social-media{
     display: flex;
