@@ -331,12 +331,29 @@ input[type="submit"]{
     display: flex;
     flex-direction: column;
 }
+
+
 .Fundamental-jv-card-artical {
     background: #FFFFFE;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
-
-
+.autor-dasteen h5{
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.autor-dasteen p{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
 /*--------------------section-react-article---------------------------*/
 .section-react-article h4{
     color:  #2B2C34;
@@ -373,6 +390,9 @@ input[type="submit"]{
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 /*--------------------section-subscribe---------------------------*/
 .section-subscribe {
@@ -499,17 +519,16 @@ footer nav ul li a{ color: #2B2C34;}
     line-height: normal;
 
 }
-.social-media{
+.social-media-links{
+    width: 284px;
+    height: 30px;
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
     flex-direction: row;
     gap: 30px;
+   }
 
-}
-.social-media img{
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-}
  .line p{
      color: #2B2C34;
      font-family: "Plus Jakarta Sans", sans-serif;
